@@ -2,6 +2,7 @@ import PropTypes from 'prop-types';
 import styles from './statistics.module.css';
 
 export default function Statistics({ title, items }) {
+  console.log(items);
   const listItem = items.map(item => {
     return (
       <li key={item.id} className={styles.item}>
