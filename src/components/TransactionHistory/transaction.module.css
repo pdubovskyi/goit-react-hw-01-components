@@ -1,0 +1,22 @@
+.transaction {
+  margin: 0 auto;
+  width: 600px;
+  padding: 50px 20px;
+  background: lightblue;
+  border-radius: 10%;
+}
+
+th {
+  font-size: 24px;
+  font-weight: 800;
+  padding: 10px 15px;
+  text-align: center;
+}
+
+td {
+  font-size: 16px;
+  font-weight: 600;
+  border: 1px solid var(--color-black);
+  padding: 10px 15px;
+  text-align: center;
+}
